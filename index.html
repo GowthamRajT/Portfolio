@@ -510,6 +510,7 @@ footer p+p{margin-top:.4rem;font-size:.62rem}
   <ul class="nav-links">
     <li><a href="#about">ABOUT</a></li>
     <li><a href="#education">EDU</a></li>
+    <li><a href="#internships">INTERNSHIPS</a></li>
     <li><a href="#skills">SKILLS</a></li>
     <li><a href="#projects">PROJECTS</a></li>
     <li><a href="#certs-section">CERTS</a></li>
@@ -550,7 +551,7 @@ footer p+p{margin-top:.4rem;font-size:.62rem}
         <div class="stat-card"><span class="stat-num">7.87</span><span class="stat-label">CGPA</span></div>
         <div class="stat-card"><span class="stat-num">90.83%</span><span class="stat-label">HSC SCORE</span></div>
         <div class="stat-card"><span class="stat-num">2</span><span class="stat-label">PROJECTS</span></div>
-        <div class="stat-card"><span class="stat-num">8+</span><span class="stat-label">CERTIFICATES</span></div>
+        <div class="stat-card"><span class="stat-num">12+</span><span class="stat-label">CERTIFICATES</span></div>
       </div>
     </div>
     <div class="strengths-row">
@@ -601,6 +602,36 @@ footer p+p{margin-top:.4rem;font-size:.62rem}
   </div>
 </section>
 
+<section id="internships">
+  <div class="container">
+    <div class="section-header reveal">
+      <span class="section-tag">EXPERIENCE</span>
+      <h2 class="section-title">Internships</h2>
+      <div class="section-line"></div>
+    </div>
+    <div class="proj-grid">
+      <article class="proj-card reveal">
+        <div class="pnum">01</div>
+        <span class="ptag" style="color:var(--accent);background:rgba(0,212,255,.08);border-color:rgba(0,212,255,.28)">PRODUCTION INTERN</span>
+        <h3 class="ptitle">Montra Electric</h3>
+        <p class="pdesc">Assisted in the production and assembly of electric vehicles in the EV Auto Production Department. Performed quality checks and supported production activities to ensure high manufacturing standards, gaining hands-on exposure to EV manufacturing processes, safety protocols, and production workflows.</p>
+        <div class="ptech">
+          <span class="tpill">EV Production</span><span class="tpill">Assembly & Testing</span><span class="tpill">Quality Control</span><span class="tpill">Safety Protocols</span><span class="tpill">June 2026</span>
+        </div>
+      </article>
+      <article class="proj-card reveal">
+        <div class="pnum">02</div>
+        <span class="ptag" style="color:var(--accent2);background:rgba(191,0,255,.08);border-color:rgba(191,0,255,.28)">BIG DATA & BUSINESS INTERN</span>
+        <h3 class="ptitle">IBM SkillsBuild</h3>
+        <p class="pdesc">Completed an intensive 6-week internship focused on Big Data & Business Management. Gained practical exposure to big data concepts, business management practices, and developed strong analytical, problem-solving, and teamwork capabilities.</p>
+        <div class="ptech">
+          <span class="tpill">Big Data</span><span class="tpill">Business Management</span><span class="tpill">Data Analytics</span><span class="tpill">Problem Solving</span><span class="tpill">July 2026</span>
+        </div>
+      </article>
+    </div>
+  </div>
+</section>
+
 <section id="skills">
   <div class="container">
     <div class="section-header reveal">
@@ -620,6 +651,7 @@ footer p+p{margin-top:.4rem;font-size:.62rem}
       <div class="skill-cat reveal">
         <div class="skill-cat-title">PROGRAMMING</div>
         <div class="skill-row"><div class="sdot"></div><span>C++</span><div class="sbar-wrap"><div class="sbar" data-w="90"></div></div></div>
+        <div class="skill-row"><div class="sdot"></div><span>Java</span><div class="sbar-wrap"><div class="sbar" data-w="85"></div></div></div>
         <div class="skill-row"><div class="sdot"></div><span>Python</span><div class="sbar-wrap"><div class="sbar" data-w="80"></div></div></div>
         <div class="skill-row"><div class="sdot"></div><span>C Programming</span><div class="sbar-wrap"><div class="sbar" data-w="70"></div></div></div>
         <div class="skill-row"><div class="sdot"></div><span>HTML5 / CSS3</span><div class="sbar-wrap"><div class="sbar" data-w="75"></div></div></div>
@@ -712,6 +744,8 @@ footer p+p{margin-top:.4rem;font-size:.62rem}
       <div class="section-line"></div>
     </div>
     <div class="lang-row">
+      <div class="lang-card reveal"><div class="lang-name">TAMIL</div><div class="lang-lvl">READ | WRITE | SPEAK</div></div>
+      <div class="lang-card reveal"><div class="lang-name">ENGLISH</div><div class="lang-lvl">READ | WRITE | SPEAK</div></div>
       <div class="lang-card reveal"><div class="lang-name">KANNADA</div><div class="lang-lvl">SPEAK</div></div>
       <div class="lang-card reveal"><div class="lang-name">HINDI</div><div class="lang-lvl">READ | WRITE | SPEAK</div></div>
       <div class="lang-card reveal"><div class="lang-name">JAPANESE</div><div class="lang-lvl">READ | WRITE</div></div>
@@ -1008,7 +1042,11 @@ const certs = [
   {label:'NPTEL',title:'Design Thinking',color:'#ffdd00'},
   {label:'NPTEL',title:'Intro to IoT',color:'#ff3388'},
   {label:'Infosys',title:'Basics of Python',color:'#00aaff'},
-  {label:'Future Skills Prime',title:'Digital 101',color:'#ff9900'}
+  {label:'Future Skills Prime',title:'Digital 101',color:'#ff9900'},
+  {label:'Nasscom',title:'Acquiring Data',color:'#a855f7'},
+  {label:'Nasscom',title:'Data Processing & Viz',color:'#ec4899'},
+  {label:'Nasscom',title:'STEM Fundamentals',color:'#3b82f6'},
+  {label:'HackerRank',title:'SQL (Intermediate)',color:'#22c55e'}
 ];
 const globe = document.getElementById('certGlobe');
 const globeCtx = globe.getContext('2d');
